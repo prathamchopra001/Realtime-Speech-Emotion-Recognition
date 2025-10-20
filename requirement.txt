@@ -10,5 +10,5 @@ json-tricks
 matplotlib
 seaborn
 pyaudio
-tkinter
+sounddevice 
 # install tensorflow according to your syatem config from https://www.tensorflow.org/install/pip using pip
