@@ -12,6 +12,7 @@ This is a clean modular version of your notebook code. No extras, just your exac
 ├── evaluation.py      # Testing and visualization
 ├── main.py           # Main script
 └── requirements.txt   # Dependencies
+├── realtime_SER.py    # Real-time speech emotion recognition
 ```
 
 ## Usage
@@ -41,6 +42,11 @@ python main.py --mode train-saved
 python main.py --mode test
 ```
 
+### 6. Run realtime_SER
+```bash
+python realtime_SER.py
+```
+
 ## What Each Module Does
 
 - **config.py**: All paths and parameters in one place
@@ -50,6 +56,7 @@ python main.py --mode test
 - **training.py**: Splits data, trains model
 - **evaluation.py**: Tests model, plots confusion matrix
 - **main.py**: Ties everything together
+- **realtime_SER.py**: Run the model to predict in real-time
 
 ## Notes
 
