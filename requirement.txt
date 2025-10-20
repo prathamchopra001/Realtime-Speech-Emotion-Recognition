@@ -1,0 +1,14 @@
+numpy
+pandas
+scikit-learn
+tensorflow
+keras
+librosa
+pydub
+noisereduce
+json-tricks
+matplotlib
+seaborn
+pyaudio
+tkinter
+# install tensorflow according to your syatem config from https://www.tensorflow.org/install/pip using pip
